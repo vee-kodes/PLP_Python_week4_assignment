@@ -1,0 +1,15 @@
+File Operations In Python & Error Handling
+==================================================================
+Python provides several built-in functions for file handling:
+- open(): Used to open a file and return a file object
+- read(): Method to read content from a file
+- write(): Method to write content to a file
+- close(): Method to close an opened file
+The with statement is preferred as it automatically closes the file.
+
+Error Handling in File Operations
+Common exceptions when working with files:
+- FileNotFoundError: When the specified file doesn't exist
+- PermissionError: When you don't have rights to access the file
+Always use try-except blocks to handle potential errors gracefully.
+This ensures your program doesn't crash unexpectedly and provides helpful error messages to users.
